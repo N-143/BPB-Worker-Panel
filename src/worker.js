@@ -10,11 +10,7 @@ let userID = 'b2538ea9-069d-42af-be4e-36e97894d1f3';
 let trojanPassword = `bpb-trojan`;
 
 // https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/
-const proxyIPs= ['bpb.yousef.isegaro.com','cdn.xn--b6gac.eu.org','cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org',
-		 '132.145.81.117','154.198.192.73','47.76.164.181','103.194.107.166','149.104.22.53','46.3.109.13','103.117.100.27',
-		 '8.217.206.24','156.59.90.79','103.210.160.198','149.104.23.116','34.92.89.142','34.96.173.94','34.92.46.51',
-		 '34.92.70.225','34.92.118.194','34.92.15.161','34.92.159.136','34.150.38.229','34.150.74.29','34.96.156.136'
-		];
+const proxyIPs= ['bpb.yousef.isegaro.com','cdn.xn--b6gac.eu.org','cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
